@@ -1,8 +1,6 @@
 package com.ifpi.ted2019.resources;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,7 +12,7 @@ import com.ifpi.ted2019.domain.Categoria;
 import com.ifpi.ted2019.services.CategoriaService;
 
 @RestController
-@RequestMapping(value = "/categorias")
+@RequestMapping(value = "/categoria")
 public class CategoriaResource {
 	@Autowired
 	private CategoriaService service;
